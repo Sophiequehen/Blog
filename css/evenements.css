@@ -1,0 +1,59 @@
+section#section_evenements{
+	padding-left: 150px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#section_evenements .articles{
+	padding: 20px;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#section_evenements #image{
+	height: 350px;
+	width: 800px;
+}
+
+#section_evenements #image img{
+	height: 100%;
+	width: 100%;
+	margin-right: 50px;
+	object-fit: cover;
+}
+
+#section_evenements #legende{
+	margin-left: 50px;
+	width: 60%;
+}
+
+#section_evenements form{
+	display: flex;
+	width: 100%;
+	padding-left: 20px;
+	justify-content: flex-start;
+}
+
+#section_evenements form input{
+	margin-left: 20px;
+}
+
+.btn.btn-outline-dark{
+	background-color: rgb(52, 58, 64);
+	color: white;
+}
+
+.btn.btn-outline-dark:hover{
+	background-color: white;
+	color: rgb(52, 58, 64);
+}
+
+.publication{
+	color: #778899;
+	font-size: 14px;
+}
+
+.debut{
+	margin-bottom: -3px;
+}
